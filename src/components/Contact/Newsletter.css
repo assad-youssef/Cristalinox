@@ -1,0 +1,72 @@
+/* Container principal centré */
+.newsletter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+    margin-top: 0px;
+    margin-bottom: -20px;
+  }
+  
+  /* Boîte principale avec fond sombre et effet d'ombre */
+  .newsletter-box {
+    background-color: #1e3a5f; /* bleu foncé */
+    color: white;
+    width: 80%;
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(50px);
+    transition: transform 0.7s ease;
+  }
+  
+  /* Animation lors du survol (optionnel) */
+  .newsletter-box:hover {
+    transform: translateY(0);
+  }
+  
+  /* Zone de texte */
+  .newsletter-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Formulaire d'inscription */
+  .newsletter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .newsletter-form input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .newsletter-form button {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #ff5252;
+  }
+  

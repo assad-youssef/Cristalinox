@@ -1,0 +1,196 @@
+.body_service {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.container-service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box-service {
+  position: relative;
+  width: 350px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+}
+.box-service::before {
+  content: "";
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 2;
+  pointer-events: none;
+}
+.box-service .icon-service {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 700;
+  transition: 1s;
+}
+
+.box-service:nth-child(1) .icon-service {
+  box-shadow: 0 0 0 0 #808080;
+  background: linear-gradient(135deg, #6c757d, #495057); /* Gris métallique */
+}
+.box-service:nth-child(1):hover .icon-service {
+  box-shadow: 0 0 0 400px #808080;
+}
+
+.box-service:nth-child(2) .icon-service {
+  box-shadow: 0 0 0 0 linear-gradient(135deg, #1e88e5, #1565c0);
+  background: linear-gradient(135deg, #1e88e5, #1565c0);
+}
+.box-service:nth-child(2):hover .icon-service {
+  box-shadow: 0 0 0 400px #1e88e5;
+}
+
+.box-service:nth-child(3) .icon-service {
+  box-shadow: 0 0 0 0 linear-gradient(135deg, #43a047, #2e7d32);
+  background: linear-gradient(135deg, #43a047, #2e7d32);
+}
+.box-service:nth-child(3):hover .icon-service {
+  box-shadow: 0 0 0 400px #2e7d32;
+}
+
+.content-service {
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.box-service:hover .content-service {
+  color: #fff;
+}
+.content-service h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.content-service p {
+  margin: 0;
+  padding: 0;
+}
+.content-service a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.title_service {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes glowGold {
+  0% {
+    text-shadow: 0 0 5px #ffd700, 0 0 10px #ffb000;
+  }
+  50% {
+    text-shadow: 0 0 10px #ffd700, 0 0 20px #ffb000;
+  }
+  100% {
+    text-shadow: 0 0 5px #ffd700, 0 0 10px #ffb000;
+  }
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  15% {
+    transform: translate(-1px, 1px) skewX(2deg);
+  }
+  30% {
+    transform: translate(1px, -1px) skewX(-2deg);
+  }
+  45% {
+    transform: translate(-1px, 1px) skewX(2deg);
+  }
+  60% {
+    transform: translate(1px, -1px) skewX(-2deg);
+  }
+  75% {
+    transform: translate(0);
+  }
+}
+
+.title_service {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0;
+  animation: fadeIn 1.2s ease-in-out forwards, glowGold 3s infinite alternate;
+
+  background: linear-gradient(45deg, #141412, #c0c0c0, #c99f3667);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  border: 3px solid transparent;
+  border-image: linear-gradient(45deg, #ffd700, #c0c0c0, #daa520);
+  border-image-slice: 1;
+}
+
+.title_service:hover {
+  animation: fadeIn 1.2s ease-in-out forwards, glowGold 3s infinite alternate,
+    glitch 0.3s ease-in-out infinite;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .container-service {
+    justify-content: center;
+  }
+}

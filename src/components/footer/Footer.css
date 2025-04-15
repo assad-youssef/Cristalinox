@@ -1,0 +1,155 @@
+/* Footer Container */
+.footer-container {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: linear-gradient(to right, #3A6B6B, #1D2A3A);
+    color: #fff;
+    padding: 50px 20px 0;
+    position: relative;
+    height: 450px;
+}
+
+/* Footer Styling */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+}
+
+
+
+/* Footer Content */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+    gap: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Footer Sections */
+.footer-section {
+    width: 23%;
+    min-width: 250px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Footer Logo */
+.logo-footer img {
+    height: 150px;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+/* Footer Links */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-section a:hover {
+    color: #ffffff;
+}
+
+/* Contact Section */
+.footer-section.contact ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-section.contact i {
+    font-size: 16px;
+    color: #ffcc00;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.social-links li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.social-links li:hover {
+    background: #ffcc00;
+    transform: scale(1.1);
+}
+
+.social-links i {
+    font-size: 18px;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-links li:hover i {
+    color: #2c3e50;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #bdc3c7;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container{
+        height: 100vh;
+
+        width: 100%;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .footer-section.contact ul li {
+        justify-content: center;
+    }
+}

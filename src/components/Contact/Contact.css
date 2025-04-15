@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&display=swap");
+
+:root {
+  --bodyBg: #303841;
+  --formBg: #343f4b;
+  --textColor: #fff;
+  --primaryColor: #0076a3;
+  --paraColor: #5e6c79;
+  --paraColor: #74828f;
+}
+
+@keyframes glowBg {
+  from {
+    background-color: #303841;
+  }
+  to {
+    background-color: #2b343c;
+  }
+}
+.contact_body {
+  font-family: "Roboto Serif", serif;
+  color: var(--textColor);
+  background: var(--bodyBg);
+  padding-bottom: 5em;
+  animation: glowBg 3s infinite alternate;
+}
+.contact_section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 90%;
+  max-width: 550px;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.sectionHeader {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: var(--primaryColor);
+  margin-bottom: 0.5em;
+}
+
+.heading,
+.sub-heading {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.heading {
+  font-size: 2.5em;
+}
+
+.sub-heading {
+  text-align: left;
+  transition: 0.3s ease-in-out;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.sub-heading:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  transform: scale(1.05);
+}
+
+.contactForm {
+  display: grid;
+  gap: 3em;
+}
+
+form {
+  width: 100%;
+  margin-top: 3em;
+}
+
+.para {
+  color: var(--paraColor);
+  font-size: 1.1rem;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+.para2 {
+  text-align: left;
+}
+
+.input {
+  width: 95%;
+  max-width: 700px;
+  border: none;
+  font-size: 0.9rem;
+  padding: 1em;
+  outline: none;
+  background-color: var(--formBg);
+  color: var(--paraColor);
+  border-radius: 10px;
+  border: 1px solid rgb(53, 53, 53);
+  margin-bottom: 1em;
+}
+
+.input:focus {
+  border: 1px solid var(--primaryColor);
+}
+
+.input::placeholder {
+  text-transform: capitalize;
+}
+
+.submit {
+  background-color: var(--primaryColor);
+  border: none;
+  color: var(--textColor);
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 530px;
+}
+
+.mapBg {
+  position: absolute;
+  background-color: var(--primaryColor);
+  top: 0;
+  right: 0;
+  width: 240px;
+  height: 90%;
+  border-radius: 20px;
+}
+
+.map {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contactMethod {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  text-align: left;
+}
+
+.method {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.contactIcon {
+  font-size: 2rem;
+  color: var(--primaryColor);
+  width: 70px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  text-shadow: 0 0 10px rgba(0, 118, 163, 0.8);
+}
+#clickable {
+  color: var(--primaryColor);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+.contactIcon:hover {
+  text-shadow: 0 0 20px rgba(0, 118, 163, 1), 0 0 30px rgba(0, 118, 163, 0.9);
+  transform: scale(1.1);
+}
+
+.lottie-container {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.lottie-icon {
+  width: 100%;
+  height: 100%;
+}
+
+/* Effet de survol */
+.method:hover .lottie-container {
+  transform: scale(1.2);
+  filter: drop-shadow(0px 0px 10px rgba(0, 118, 163, 0.8));
+}
+
+/* Transition de montée douce */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.alert {
+  position: fixed;
+  top: 90px;
+  right: 30px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #28a745; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.alert.error {
+  background-color: #dc3545; /* Rouge pour erreur */
+}
+
+.alert.hide {
+  opacity: 0;
+}
+
+@media screen and (min-width: 800px) {
+  .contact_section {
+    max-width: 1100px;
+  }
+  .contactForm {
+    grid-template-columns: 1fr 1fr;
+  }
+  .contactMethod {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .method {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}

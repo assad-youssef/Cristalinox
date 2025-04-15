@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+
+.alert-danger.show-danger {
+    display: block;
+    opacity: 1;
+  }
+  
+  .alert-danger p {
+    margin: 0;
+  }
+  
+  
