@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-content">
           <div className="footer-sectionabout">
             <Link to="/" className="logo-footer">
-              <img src="/images/logo.png" alt="Cristal Inox Logo" />
+              <img src="/images/logo3.png"  alt="Cristal Inox Logo" />
             </Link>
             <p>
               Passionnés par l’excellence de la chaudronnerie en acier

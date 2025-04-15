@@ -46,7 +46,7 @@ function Cards() {
             >
               <CardItem
                 src="images/metal-gate.jfif"
-                text="Portails en métal élégants et durables adaptés à vos besoins"
+                text="un intérieur somptueux mêlant des finitions dorées, un mobilier élégant et un éclairage spectaculaire"
                 label="Métallerie"
                 path="/catalogue"
               />
