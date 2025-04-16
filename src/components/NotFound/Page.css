@@ -14,7 +14,7 @@ a {
   color: #000;
 }
 
-input, select, button, textarea {
+input, select, btn_404, textarea {
   margin: 0;
   font-size: 100%;
 }
@@ -103,7 +103,7 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, 
 
 
 
-button {
+btn_404 {
   border: none;
   padding: 0;
   font-size: 0;
@@ -219,62 +219,6 @@ button {
   color: #212121;
   -webkit-transition: color .25s ease;
   transition: color .25s ease;
-}
-
-.e-nav__link {
-  height: 45px;
-  line-height: 45px;
-  width: 170px;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 15px;
-  border: 1px solid #181828;
-  color: #181828;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  font-size: 11px;
-  letter-spacing: .1rem;
-  position: relative;
-  overflow: hidden;
-}
-
-.e-nav__link:before {
-  content: '';
-  height: 200px;
-  background: #212121;
-  position: absolute;
-  top: 70px;
-  right: 70px;
-  width: 260px;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-  -webkit-transform: rotate(50deg);
-          transform: rotate(50deg);
-}
-
-.e-nav__link:after {
-  -webkit-transition: all .3s;
-  transition: all .3s;
-  z-index: 999;
-  position: relative;
-}
-
-.e-nav__link:after {
-  content: "Home Page";
-}
-
-.e-nav__link:hover:before {
-  top: -60px;
-  right: -50px;
-}
-
-.e-nav__link:hover {
-  color: #fff;
-}
-
-.e-nav__link:nth-child(2):hover:after {
-  color: #fff;
 }
 /* 2.1. END Section Error */
 
@@ -400,14 +344,74 @@ button {
     z-index: 1;
     border-radius: 90px 90px 0px 0px;
 }
-/* 2.3. END Lamp */
-/***********************************
-			/* 2. END CONTENT */
-/***********************************/
 
-/***********************************
-			/* 3. RESPONSIVE */
-/***********************************/
+/* From Uiverse.io by gharsh11032000 */ 
+.btn_404 {
+    position: relative;
+    background-color: transparent;
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 150px;
+    height: 60px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .btn_404::before {
+    content: "Home page!";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(135deg,#7b4397,#dc2430 );
+    transform: translate(0%,90%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .btn_404::after {
+    content: "GO TO";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .btn_404:hover::before {
+    transform: translate(0%,0%);
+  }
+  
+  .btn_404:hover::after {
+    transform: translate(0%,-200%);
+  }
+  
+  .btn_404:focus {
+    outline: none;
+  }
+  
+  .btn_404:active {
+    scale: 0.95;
+  }
+  
+  
+  
+
 .error {
   overflow: hidden;
   max-height: 100vh;
