@@ -63,7 +63,7 @@ const ProductDetail = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <h3>Contactez-nous pour plus d'informations :</h3>
-            <p>📞 Téléphone : +212 661 471 841</p>
+            <p>📞 Téléphone : +212 661-236987</p>
             <p>📧 Email : cristal.inox@yahoo.fr</p>
           </motion.div>
         </div>

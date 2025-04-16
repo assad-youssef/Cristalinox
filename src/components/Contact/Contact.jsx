@@ -117,8 +117,8 @@ function Contact() {
                 {
                   data: phone,
                   title: "Téléphone",
-                  text: "+212661471841",
-                  link: "tel:+212661471841",
+                  text: "+212661236987",
+                  link: "tel:+212661236987",
                 },
               ].map((item, index) => (
                 <motion.div

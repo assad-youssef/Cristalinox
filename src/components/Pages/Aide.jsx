@@ -15,7 +15,7 @@ const Aide = () => {
           <p><strong>Service client est à votre écoute !</strong></p>
           <ul>
             <li>📧 cristal.inox@yahoo.fr</li>
-            <li>📞 +212 661 471 841 </li>
+            <li>📞 +212 661 236 987</li>
           </ul>
           <h4>📍 Venez nous rendre visite !</h4>
           <p><strong>Adresse de notre boutique :</strong></p>
