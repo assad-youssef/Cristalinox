@@ -17,6 +17,7 @@ import ProductListWithCategories from "./components/Catalogue/Page";
 import ProductListWithFilters from "./components/Catalogue/ListPro";
 import ProductDetail from "./components/Catalogue/ProductDetails";
 import Abouttest from "./components/about/AboutTest";
+import Page404 from "./components/NotFound/Page";
 
 function AnimatedRoutes() {
   const location = useLocation(); // Détecte la route actuelle
@@ -64,23 +65,24 @@ function AnimatedRoutes() {
             </PageTransition>
           }
         />
-          <Route
+        <Route
           path="/catalogue/:idcode"
           element={
             <PageTransition>
               <ProductListWithFilters />
             </PageTransition>
           }
-        />    <Route
-        path="/product/:id"
-        element={
-          <PageTransition>
-            <ProductDetail />
-          </PageTransition>
-        }
-      />
+        />{" "}
+        <Route
+          path="/product/:id"
+          element={
+            <PageTransition>
+              <ProductDetail />
+            </PageTransition>
+          }
+        />
+        <Route path="*" element={<Page404 />} />
       </Routes>
-      
     </AnimatePresence>
   );
 }
