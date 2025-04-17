@@ -6,6 +6,7 @@ import Services from "./Services";
 const Abouttest = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = "Cristal inox  | À propos de nous"; 
   }, []);
   return (
     <>
