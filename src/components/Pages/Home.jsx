@@ -9,6 +9,8 @@ import Aide from "./Aide";
 function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = "Cristal inox | Expertise en chaudronnerie et solutions industrielles sur-mesure."; 
+
   }, []);
   return (
     <>
