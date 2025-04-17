@@ -13,6 +13,8 @@ import NewsLetter from "./Newsletter";
 function Contact() {
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = "Cristal inox  | Adresse et plan d'access"; 
+    
   }, []);
 
   const form = useRef();
