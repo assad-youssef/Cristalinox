@@ -115,7 +115,7 @@ function Contact() {
                   title: "Localisation",
                   text: "Casablanca, Tit Mellil",
                 },
-                { data: gmail, title: "Email", text: "Cristal.inox@yahoo.fr" },
+                { data: gmail, title: "Email", text: "contact@cristalinox.ma" },
                 {
                   data: phone,
                   title: "Téléphone",

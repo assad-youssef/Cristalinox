@@ -46,8 +46,8 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="mailto:cristal.inox@yahoo.fr" target="_blank">
-                  <i className="fa-solid fa-envelope"></i> cristal.inox@yahoo.fr
+                <Link to="mailto:contact@cristalinox.ma" target="_blank">
+                  <i className="fa-solid fa-envelope"></i> contact@cristalinox.ma
                 </Link>
               </li>
 

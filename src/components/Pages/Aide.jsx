@@ -14,7 +14,7 @@ const Aide = () => {
           <h3>Contactez nous !</h3>
           <p><strong>Service client est à votre écoute !</strong></p>
           <ul>
-            <li>📧 cristal.inox@yahoo.fr</li>
+            <li>📧 contact@cristalinox.ma</li>
             <li>📞 +212 661 236 987</li>
           </ul>
           <h4>📍 Venez nous rendre visite !</h4>

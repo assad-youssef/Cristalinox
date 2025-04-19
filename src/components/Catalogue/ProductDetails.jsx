@@ -64,7 +64,7 @@ const ProductDetail = () => {
           >
             <h3>Contactez-nous pour plus d'informations :</h3>
             <p>📞 Téléphone : +212 661-236987</p>
-            <p>📧 Email : cristal.inox@yahoo.fr</p>
+            <p>📧 Email : contact@cristalinox.ma</p>
           </motion.div>
         </div>
       </motion.div>
