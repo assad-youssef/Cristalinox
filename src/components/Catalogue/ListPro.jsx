@@ -64,7 +64,7 @@ const ProductListWithFilters = () => {
       </div>
 
       <div className="products_filters">
-        <h2>Filtres</h2>
+        <h2>Rechercher vos besoins</h2>
         <input
           type="text"
           placeholder="Rechercher un produit..."

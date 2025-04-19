@@ -74,7 +74,7 @@ const ProductListWithCategories = () => {
       </div>
 
       <div className="products_filters">
-        <h2 className="filter-title">Filtres</h2>
+        <h2 className="filter-title">Rechercher vos besoins</h2>
         <motion.input
           type="text"
           placeholder="Rechercher une sous-catégorie..."
