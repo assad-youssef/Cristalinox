@@ -2,14 +2,20 @@ import React, { useEffect } from "react";
 import "./test.css";
 import { motion } from "framer-motion";
 import Services from "./Services";
-
+import { Helmet } from "react-helmet";
 const Abouttest = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Cristal inox  | À propos de nous";
   }, []);
   return (
     <>
+      <Helmet>
+        <title>À propos de nous | Cristal Inox</title>
+        <meta
+          name="description"
+          content="Découvrez l’histoire, les valeurs et l’expertise de Cristal Inox, spécialiste de l’acier inoxydable à Casablanca."
+        />
+      </Helmet>
       <section className="about2">
         <div className="back">
           <div className="container2">
@@ -40,9 +46,11 @@ const Abouttest = () => {
               transition={{ duration: 1, delay: 0.3 }}
             >
               Chez <strong>Cristal Inox</strong>, basé à Casablanca, nous sommes
-              spécialisés dans la **conception et fabrication de structures en
-              acier inoxydable** pour la décoration, l’industrie, le médical et
-              le secteur alimentaire. Nous combinons **design contemporain**,
+              spécialisés dans la <strong>
+                 conception et fabrication de structures en
+              acier inoxydable</strong> pour la décoration, l’industrie, le médical et
+              le secteur alimentaire. Nous combinons <strong>
+                 design contemporain</strong>,
               robustesse et savoir-faire artisanal pour donner vie à vos projets
               sur mesure.
             </motion.p>
@@ -74,11 +82,11 @@ const Abouttest = () => {
         >
           <h3>Pourquoi choisir Cristal Inox ?</h3>
           <p>
-          ✔️ Acier inoxydable premium et finitions haut de gamme  
+            ✔️ Acier inoxydable premium et finitions haut de gamme
             <br />
-            ✔️ Fabrication 100% sur mesure selon vos plans  
+            ✔️ Fabrication 100% sur mesure selon vos plans
             <br />
-            ✔️ Solutions décoratives et industrielles innovantes  
+            ✔️ Solutions décoratives et industrielles innovantes
             <br />
             ✔️Résistance, durabilité et conformité aux normes
           </p>
