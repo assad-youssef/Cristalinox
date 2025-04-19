@@ -13,12 +13,11 @@ import NewsLetter from "./Newsletter";
 function Contact() {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Cristal inox  | Adresse et plan d'access"; 
-    
+    document.title = "Cristal inox  | Adresse et plan d'accès";
   }, []);
 
   const form = useRef();
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState(null); // ✅ Fixed initial value
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -34,12 +33,10 @@ function Contact() {
         () => {
           setMessage({ text: "Message envoyé avec succès !", type: "success" });
           form.current.reset();
-
           setTimeout(() => setMessage(null), 2000);
         },
         (error) => {
           setMessage({ text: "Erreur lors de l'envoi !", type: "error" });
-
           setTimeout(() => setMessage(null), 2000);
         }
       );
@@ -90,9 +87,13 @@ function Contact() {
                 whileTap={{ scale: 0.95 }}
               />
             </motion.form>
+
+            {/* ✅ Message Alert */}
             {message && (
               <div className={`alert ${message.type}`}>{message.text}</div>
             )}
+
+            {/* Google Map */}
             <motion.div className="map-container">
               <div className="mapBg"></div>
               <div className="map">
@@ -108,14 +109,21 @@ function Contact() {
               </div>
             </motion.div>
 
+            {/* Contact Methods */}
             <div className="contactMethod">
               {[
                 {
                   data: maps,
                   title: "Localisation",
                   text: "Casablanca, Tit Mellil",
+                  link: "https://maps.app.goo.gl/pDnSyZRrjusZyBQr9",
                 },
-                { data: gmail, title: "Email", text: "contact@cristalinox.ma" },
+                {
+                  data: gmail,
+                  title: "Email",
+                  text: "contact@cristalinox.ma",
+                  link: "mailto:contact@cristalinox.ma",
+                },
                 {
                   data: phone,
                   title: "Téléphone",
@@ -134,7 +142,12 @@ function Contact() {
                   <article className="text">
                     <h1 className="sub-heading">{item.title}</h1>
                     {item.link ? (
-                      <a href={item.link} className="para">
+                      <a
+                        href={item.link}
+                        className="para"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {item.text}
                       </a>
                     ) : (
@@ -147,6 +160,7 @@ function Contact() {
           </div>
         </section>
       </motion.div>
+
       <QrLinks />
       <FAQ />
       <NewsLetter />
