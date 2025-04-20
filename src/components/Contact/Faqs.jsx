@@ -69,6 +69,7 @@ const FAQ = () => {
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.cristalinox.ma/contact" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </Helmet>
 
       <h1 className="faq-title">Foire Aux Questions - Cristal Inox💡</h1>
