@@ -38,12 +38,12 @@ const faqs = [
     question: "Travaillez-vous avec des professionnels et des particuliers ?",
     answer:
       "Oui, nous collaborons aussi bien avec des entreprises qu'avec des particuliers. Que vous soyez un architecte, un industriel ou un particulier souhaitant un aménagement en inox sur mesure, nous avons l'expertise nécessaire pour répondre à vos attentes. Notre équipe est à votre écoute pour vous conseiller et concrétiser votre projet.",
-  },{
+  },
+  {
     question: "Dans quelles régions intervenez-vous ?",
     answer:
-      "Nous sommes basés à Casablanca, mais nous intervenons dans tout le Maroc selon les projets. N'hésitez pas à nous contacter pour en savoir plus."
-  }
-  
+      "Nous sommes basés à Casablanca, mais nous intervenons dans tout le Maroc selon les projets. N'hésitez pas à nous contacter pour en savoir plus.",
+  },
 ];
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
