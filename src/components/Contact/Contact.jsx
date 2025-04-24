@@ -53,6 +53,10 @@ function Contact() {
           name="description"
           content="Contactez Cristal Inox à Casablanca pour vos projets en inox : adresse, numéro de téléphone, email et plan d'accès. Réponse rapide et professionnelle !"
         />
+                <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="canonical" href="https://www.cristalinox.ma/contact" />
       </Helmet>
 
       <motion.div className="contact_body" initial="hidden" animate="visible">

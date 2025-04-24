@@ -68,8 +68,10 @@ const FAQ = () => {
           content="contact Cristal Inox, inox Casablanca, chaudronnerie inox, téléphone inox, email inox, adresse inox"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.cristalinox.ma/contact" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="canonical" href="https://www.cristalinox.ma/faqs" />
       </Helmet>
 
       <h1 className="faq-title">Foire Aux Questions - Cristal Inox💡</h1>

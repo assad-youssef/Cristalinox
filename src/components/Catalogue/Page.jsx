@@ -22,7 +22,18 @@ const ProductListWithCategories = () => {
     })
     .filter((category) => category.souscategories.length > 0);
 
-  return (
+  return (<>
+    <Helmet>
+    <title>Catalogue | Cristal Inox</title>
+    <meta
+      name="description"
+      content="Découvrez les produits, les catégories et l’expertise de Cristal Inox, spécialiste de l’acier inoxydable à Casablanca."
+    />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="canonical" href="https://www.cristalinox.ma/catalogue" />
+  </Helmet>
     <div className="products_container">
       <div className="product-list">
         <motion.h2
@@ -30,27 +41,27 @@ const ProductListWithCategories = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-        >
+          >
           Nos Catégories
         </motion.h2>
         {filteredCategories.map((category, index) => (
           <motion.div
-            key={category.code}
-            className="category-section"
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.2 }}
+          key={category.code}
+          className="category-section"
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: index * 0.2 }}
           >
             <h3 className="category-title">{category.nom}</h3>
             <div className="subcategory-grid">
               {category.souscategories.map((subCategory, subIndex) => (
                 <motion.div
-                  key={subCategory.nom}
+                key={subCategory.nom}
                   className="subcategory-card"
                   initial={{ scale: 0.8, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   transition={{ duration: 0.3, delay: subIndex * 0.1 }}
-                >
+                  >
                   <img
                     src={
                       subCategory.image && subCategory.image !== "url_interdite"
@@ -84,9 +95,10 @@ const ProductListWithCategories = () => {
           initial={{ width: "80%", opacity: 0 }}
           animate={{ width: "100%", opacity: 1 }}
           transition={{ duration: 0.5 }}
-        />
+          />
       </div>
     </div>
+          </>
   );
 };
 

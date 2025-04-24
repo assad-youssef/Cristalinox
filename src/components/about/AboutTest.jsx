@@ -15,10 +15,10 @@ const Abouttest = () => {
           name="description"
           content="Découvrez l’histoire, les valeurs et l’expertise de Cristal Inox, spécialiste de l’acier inoxydable à Casablanca."
         />
-
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="canonical" href="https://www.cristalinox.ma/about" />
       </Helmet>
       <section className="about2">
         <div className="back">
