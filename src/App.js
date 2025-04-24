@@ -8,7 +8,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/Pages/Home";
-import About from "./components/about/About";
 import Footer from "./components/footer/Footer";
 import Contact from "./components/Contact/Contact";
 import FAQ from "./components/Contact/Faqs";

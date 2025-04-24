@@ -15,6 +15,10 @@ const Abouttest = () => {
           name="description"
           content="Découvrez l’histoire, les valeurs et l’expertise de Cristal Inox, spécialiste de l’acier inoxydable à Casablanca."
         />
+
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </Helmet>
       <section className="about2">
         <div className="back">
@@ -46,11 +50,12 @@ const Abouttest = () => {
               transition={{ duration: 1, delay: 0.3 }}
             >
               Chez <strong>Cristal Inox</strong>, basé à Casablanca, nous sommes
-              spécialisés dans la <strong>
-                 conception et fabrication de structures en
-              acier inoxydable</strong> pour la décoration, l’industrie, le médical et
-              le secteur alimentaire. Nous combinons <strong>
-                 design contemporain</strong>,
+              spécialisés dans la{" "}
+              <strong>
+                conception et fabrication de structures en acier inoxydable
+              </strong>{" "}
+              pour la décoration, l’industrie, le médical et le secteur
+              alimentaire. Nous combinons <strong>design contemporain</strong>,
               robustesse et savoir-faire artisanal pour donner vie à vos projets
               sur mesure.
             </motion.p>
