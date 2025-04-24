@@ -11,7 +11,6 @@ import Home from "./components/Pages/Home";
 import Footer from "./components/footer/Footer";
 import Contact from "./components/Contact/Contact";
 import FAQ from "./components/Contact/Faqs";
-import Categorie from "./components/Catalogue/Page";
 import ProductListWithCategories from "./components/Catalogue/Page";
 import ProductListWithFilters from "./components/Catalogue/ListPro";
 import ProductDetail from "./components/Catalogue/ProductDetails";
