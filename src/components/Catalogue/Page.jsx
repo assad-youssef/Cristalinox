@@ -4,6 +4,7 @@ import "./ProductList.css";
 import products from "../../Categorie";
 import "./Page.css";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const ProductListWithCategories = () => {
   useEffect(() => {
