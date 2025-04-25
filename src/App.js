@@ -32,7 +32,7 @@ function AnimatedRoutes() {
           }
         />
         <Route
-          path="/about"
+          path="/about/"
           element={
             <PageTransition>
               <Abouttest />
@@ -40,7 +40,7 @@ function AnimatedRoutes() {
           }
         />
         <Route
-          path="/contact"
+          path="/contact/"
           element={
             <PageTransition>
               <Contact />
@@ -48,7 +48,7 @@ function AnimatedRoutes() {
           }
         />
         <Route
-          path="/FAQ"
+          path="/FAQ/"
           element={
             <PageTransition>
               <FAQ />
@@ -64,7 +64,7 @@ function AnimatedRoutes() {
           }
         />
         <Route
-          path="/catalogue/:idcode"
+          path="/catalogue/:idcode/"
           element={
             <PageTransition>
               <ProductListWithFilters />
@@ -72,7 +72,7 @@ function AnimatedRoutes() {
           }
         />{" "}
         <Route
-          path="/product/:id"
+          path="/product/:id/"
           element={
             <PageTransition>
               <ProductDetail />
