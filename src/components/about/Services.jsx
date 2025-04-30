@@ -59,7 +59,7 @@ function Services() {
               <div className="content-service">
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
-                <a href="/services">En savoir plus</a>
+                <a href="#">En savoir plus</a>
                 </div>
             </motion.div>
           ))}
