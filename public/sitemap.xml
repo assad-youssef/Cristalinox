@@ -19,6 +19,7 @@
     <priority>0.80</priority>
   </url>
 
+
   <url>
     <loc>https://cristalinox.ma/contact/</loc>
     <lastmod>2025-04-17</lastmod>
@@ -30,5 +31,21 @@
     <lastmod>2025-04-17</lastmod>
     <priority>0.60</priority>
   </url>
+    <url>
+    <loc>https://cristalinox.ma/product/c1</loc>
+    <lastmod>2025-04-17</lastmod>
+    <priority>0.60</priority>
+  </url>
+   <url>
+    <loc>https://cristalinox.ma/product/c2</loc>
+    <lastmod>2025-04-17</lastmod>
+    <priority>0.60</priority>
+  </url>
+    <url>
+    <loc>https://cristalinox.ma/product/c3</loc>
+    <lastmod>2025-04-17</lastmod>
+    <priority>0.60</priority>
+  </url>
+
 
 </urlset>
