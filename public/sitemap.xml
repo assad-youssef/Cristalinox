@@ -1,51 +1,144 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
     <loc>https://cristalinox.ma/</loc>
-    <lastmod>2025-04-17</lastmod>
-    <priority>1.00</priority>
-  </url>
-
-  <url>
-    <loc>https://cristalinox.ma/about/</loc>
-    <lastmod>2025-04-17</lastmod>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://cristalinox.ma/catalogue/</loc>
-    <lastmod>2025-04-17</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-
-  <url>
-    <loc>https://cristalinox.ma/contact/</loc>
-    <lastmod>2025-04-17</lastmod>
-    <priority>0.70</priority>
-  </url>
-
-  <url>
-    <loc>https://cristalinox.ma/FAQ/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-05-06</lastmod>
     <priority>0.60</priority>
   </url>
-    <url>
+  <url>
+    <loc>https://cristalinox.ma/about</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/catalogue</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/contact</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/FAQ</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
     <loc>https://cristalinox.ma/product/c1</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-05-06</lastmod>
     <priority>0.60</priority>
   </url>
-   <url>
+  <url>
     <loc>https://cristalinox.ma/product/c2</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-05-06</lastmod>
     <priority>0.60</priority>
   </url>
-    <url>
+  <url>
     <loc>https://cristalinox.ma/product/c3</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-05-06</lastmod>
     <priority>0.60</priority>
   </url>
-
-
+  <url>
+    <loc>https://cristalinox.ma/product/c4</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/c5</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/c6</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/c7</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/c8</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/c9</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/c10</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/c11</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/c12</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/c13</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/p1</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/p2</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/p3</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/p4</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/p5</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/p6</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/p7</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/p8</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/p9</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cristalinox.ma/product/p10</loc>
+    <lastmod>2025-05-06</lastmod>
+    <priority>0.60</priority>
+  </url>
 </urlset>
